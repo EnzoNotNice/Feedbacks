@@ -69,7 +69,7 @@
 ### 1. تحميل المشروع وتثبيت الاعتماديات
 
 ```bash
-git clone https://github.com/USERNAME/Feedbacks.git
+git clone https://github.com/EnzoNotNice/Feedbacks.git
 cd Feedbacks
 npm install
 npm run build
