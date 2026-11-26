@@ -1,0 +1,36 @@
+{
+  "name": "discord-feedbacks-bot",
+  "version": "1.0.0",
+  "description": "Professional Discord Customer Feedbacks and Reviews Bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "generate-assets": "tsx scripts/generate-assets.ts",
+    "sync-emojis": "tsx scripts/sync-emojis.ts"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "feedback",
+    "reviews",
+    "typescript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.13",
+    "@resvg/resvg-js": "2.6.2",
+    "discord.js": "14.28.1",
+    "dotenv": "18.0.9",
+    "sql.js": "1.14.2",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/sql.js": "1.4.11",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
